@@ -32,7 +32,7 @@ This project is a simple Pet Shop Management System designed in C. It allows use
 - `pethostel()`: Provides options for pet hostel services.
 - `petfood()`: Allows the user to buy food for pets.
 - `petgrooming()`: Offers grooming services for pets.
-- 
+  
 **Future Enhancements:**
 - Add a graphical user interface (GUI) to improve usability.
 - Implement a database system for better storage and retrieval of customer and sales records.
