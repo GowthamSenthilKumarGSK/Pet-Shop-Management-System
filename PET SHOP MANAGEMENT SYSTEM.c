@@ -573,7 +573,7 @@ int petfood()
     printf("\n(iv)RODEO:\n\t12.Chicken flavored - Rs.130  (100g)\n\t13.Duos with chicken & bacon flavor - Rs.140  (100g)");
     printf("\n(vi)MEAT STICKS:\n\t14.Bacon flavored - Rs.135  (100g)\n\t15.Grilled liver flavor - Rs.120  (100g)\n\t16.Smoked salmon flavored - Rs.156  (100g)\n\t17.Barbeque Chicken flavored - Rs.149  (100g)");
     printf("\n(vii)DRY FOODS:\n\t18.Dry meat &milk - Rs.160  (1kg)\n\t19.Dry chicken & meat - Rs.195  (1kg)\n\t20.Chicken, egg & rice - Rs.186  (1kg)\n\t21.Vegetarian - Rs.176 (1kg)");
-    printf("\n\nEnter your choice(1 to 21): ")
+    printf("\n\nEnter your choice(1 to 21): ");
     scanf("%d",&s_f);
     if(s_f==1)
     {
@@ -688,6 +688,7 @@ int petfood()
         a_f[19]++;
         cost_f[19]=195;
         totalcost_f+=195;
+    }
      else if(s_f==20)
     {
         a_f[20]++;
